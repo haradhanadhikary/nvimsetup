@@ -34,5 +34,15 @@ Command to check status time:
 >nvim --startuptime time-lazy.log time-lazy.log
 
 
+If lsp language server failed to install then first install pyright using following command:
+for MacoS:
 
+> brew install pyright
+
+for ubuntu:
+
+> sudo apt-get install pyright
+
+
+and add "neovim/nvim-lspconfig" as a dependencies of mason.lua file then save and quite and open again
 
