@@ -1,4 +1,4 @@
-# How to Set-up nvim using Lazy.nvim 
+# How to migrate from packer to lazy and set-up nvim using Lazy.nvim 
 
 ### This set-up will help you to migrate from packer to lazy to install plugins in your nvim set-up
 ### First look into init.lua and then add your preferable plugins as I discussed in my video <https://www.youtube.com/watch?v=wh22j_sHtQQ>
