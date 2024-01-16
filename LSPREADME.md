@@ -15,6 +15,10 @@ And so the language server is the thing that analyzes our source code and it can
 
 ## Basic Usage
 
+### It enables code analysis, autocomplete, linting, and other features through language servers.
+
+### It has two side of config: neovim lsp config using "nvim-lspconfig" and language server (e.g: TS).
+
 Before we write any code we should learn how to use the language server. The first piece of information we need is the command that starts the server. This should be in the official documentation of said server.
 
 If we can't find the basic usage in the documentation we can go to [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)'s github repository. In there we look for a folder called [server_configurations](https://github.com/neovim/nvim-lspconfig/tree/master/lua/lspconfig/server_configurations), this contains configuration files for a bunch of language servers.
