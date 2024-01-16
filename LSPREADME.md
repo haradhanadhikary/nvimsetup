@@ -20,6 +20,7 @@ Before we write any code we should learn how to use the language server. The fir
 If we can't find the basic usage in the documentation we can go to [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)'s github repository. In there we look for a folder called [server_configurations](https://github.com/neovim/nvim-lspconfig/tree/master/lua/lspconfig/server_configurations), this contains configuration files for a bunch of language servers.
 
 ## Quick start
+
 1. Install a language server e.g: pyright
    ```bash
    brew install pyright
@@ -33,6 +34,7 @@ If we can't find the basic usage in the documentation we can go to [nvim-lspconf
    nvim main.py
    ```
 4. Run :LspInfo to see the status or to troubleshoot.
+   
 5. See [Suggested configuration](#Suggested-configuration) to setup common mappings and omnifunc completion.
 
 See [server_configurations.md](doc/server_configurations.md) (`:help lspconfig-all` from Nvim) for the full list of configs, including installation instructions and additional, optional, customization suggestions for each language server. For servers that are not on your system path (e.g., `jdtls`, `elixirls`), you must manually add `cmd` to the `setup` parameter. Most language servers can be installed in less than a minute.
