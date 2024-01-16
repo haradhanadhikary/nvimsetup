@@ -136,7 +136,7 @@ See the [wiki](https://github.com/neovim/nvim-lspconfig/wiki) for additional top
 * [Project local settings](https://github.com/neovim/nvim-lspconfig/wiki/Project-local-settings)
 * [Recommended plugins for enhanced language server features](https://github.com/neovim/nvim-lspconfig/wiki/Language-specific-plugins)
 
-## Contributions
+## What to do if there is any problems 
 
 If you are missing a language server on the list in [server_configurations.md](doc/server_configurations.md), contributing
 a new configuration for it helps others, especially if the server requires special setup. Follow these steps:
