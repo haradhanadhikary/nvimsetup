@@ -34,7 +34,7 @@ Command to check status time:
 >nvim --startuptime time-lazy.log time-lazy.log
 
 
-If lsp language server failed to install then first install pyright using following command:
+If lsp language server failed to install some language server then first install pyright using following command:
 for MacoS:
 
 > brew install pyright
